@@ -4,7 +4,7 @@
 int main(int argc, char *argv[]) {
 
   // Matrix is an alias defined in matrixSearch.hpp
-  Matrix<int> m1 = {{1, 2, 3}, {2, 3, 4}, {4, 5, 6}};
+  Matrix<int> m1 = {{1, 2, 3}, {2, 3, 4}, {4, 5, 15}};
 
   int searchFor = 15;
   bool answer = matrixSearch(searchFor, m1);
